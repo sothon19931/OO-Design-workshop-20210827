@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.Test;
+import static org.junit.Assert.assertEquals;
 
 public class HelloWorldTest {
     @Test
@@ -9,9 +10,5 @@ public class HelloWorldTest {
         String actualResult = helloWorld.greeting("Sothon");
         //Assert
         assertEquals("Hello Sothon", actualResult);
-    }
-
-    private void assertEquals(String expected, String actualResult) {
-
     }
 }
